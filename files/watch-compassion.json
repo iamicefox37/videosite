@@ -1,0 +1,21 @@
+[	{
+		"vid_id":"180716113126", 
+		"vid_name":"15 July 2017", 
+		"vid_ext":"mp4",
+ 		"vid_dir":"../videosite/watch/compassion",
+		"img_url":"../images/thumbnails/compassion/15 July 2017.jpg",
+		"vid_time":"04:50:00",
+ 		"vid_size":"45542724",
+		"vid_date":"2018-07-30"
+	},
+	{
+		"vid_id":"180716113554", 
+		"vid_name":"25 September 2017", 
+		"vid_ext":"mp4",
+ 		"vid_dir":"../videosite/watch/compassion",
+		"img_url":"../images/thumbnails/compassion/25 September 2017.jpg",
+		"vid_time":"02:26:00",
+ 		"vid_size":"34857660",
+		"vid_date":"2018-07-30"
+	}
+]

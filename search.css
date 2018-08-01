@@ -1,0 +1,38 @@
+@import "header.css";
+@import "footer.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/backgrounds/blue-sketch-board-background.jpg");
+}
+.content {
+	background-color: transparent;
+}
+.main {
+  width: 50%;
+  margin-top: 60px;
+  margin-left: 10%;
+  min-height: 320px;
+  height: 100%;
+  /* background-color: rgba(77,118,148, 0.1); */
+  background-color: rgb(244,244,244,0.344)
+}
+.main h4 {
+  /* color: #8f8f8f; */
+  font-size: 13.2px;
+  color: #ddd;
+  margin: 0;
+  /* line-height: 18px;
+  height: 18px; */
+}
+.results {
+  /* margin: 2.5em; */
+  margin-left: 10%;
+  border-left: 4pt solid rgb(77,118,148);
+  padding: 2em;
+}
+.error-msg {
+  /* color: #e77; */
+  color: #fb0;
+}

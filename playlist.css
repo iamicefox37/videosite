@@ -1,0 +1,30 @@
+.header-slider-wrap {
+	display: none;
+}
+.boxWrap {
+	padding-top: 60px;
+  margin-left: 50px;
+}
+.box {
+  width: 101%;
+  box-shadow: none;
+}
+.box h3 {
+	font-size: 3.4em;
+  height: 3.2em;
+  line-height: 4.0em;
+  text-align: center;
+  background-color: rgba(17, 44, 64, 0.8);
+  color: rgb(159, 189, 211);
+}
+.prev, .next {
+  display: none;
+}
+.videoslides-container {
+  height: auto;
+}
+@media only screen and (max-width: 720px) {
+  .boxWrap {
+    margin-left: 0;
+  }
+}

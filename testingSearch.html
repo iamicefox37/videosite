@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Searching</title>
+    <script src="fuse-master/dist/fuse.js"></script>
+  </head>
+  <body>
+    <form>
+      <input type="text" onkeypress="fuseSearch()" id="searchinput" placeholder="search..." autofocus col="8">
+      <input type="submit" value="Search">
+    </form>
+    <div class="results">
+
+    </div>
+    <script type="text/javascript">
+    var search = document.querySelector("#searchinput");
+    var results = document.querySelector(".results");
+    var obj = [];
+    var res = [];
+    fetch("files/all-videos.json")
+    .then((res) => res.json())
+    .then((data) => {
+      obj = data;
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+    var options = {
+      keys: ['vid_name', 'vid_date'],
+    };
+    // var fuse = new Fuse(obj, options)
+
+    function fuseSearch() {
+      var fuse = new Fuse(obj, options);
+      console.log(fuse.search(search.value));
+    }
+    window.onclick = function(e) {
+      e.preventDefault();
+    }
+    </script>
+  </body>
+</html>
