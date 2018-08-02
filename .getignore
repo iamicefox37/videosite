@@ -1,13 +1,13 @@
 /backup
- Fuse-master/
-backup/
-css/
+/Fuse-master
+/backup
+/css
 editortest.php
-ffmpeg/
-fonts/
-getID3-master/
-images/
-videosite/backup/
+/ffmpeg
+/fonts
+/getID3-master
+/images
+/videosite/backup
 videosite/index-scandir.php
 videosite/index_test.php
 videosite/style_smaller_screens.css
