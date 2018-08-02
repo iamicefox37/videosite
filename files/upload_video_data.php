@@ -3,7 +3,7 @@
 <html lang="eng" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Create Videos Info JSON PHP</title>
+    <title>Upload Video Data</title>
     <style>
       .main {
         width: 640px;
