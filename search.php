@@ -32,12 +32,7 @@
         <div class="results">
           <h4>Search for a video</h4>
         </div>
-      </div>
-      <footer>
-        <div class="footer">
-          <h4>&copy; Copyright Media Burma </h4>
-        </div>
-      </footer>
+      </div>      
     </div>
 
 

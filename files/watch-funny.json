@@ -6,7 +6,7 @@
 		"img_url":"../images/thumbnails/funny/2 July 2017.jpg",
 		"vid_time":"04:07:00",
  		"vid_size":"65825202",
-		"vid_date":"2018-07-30"
+		"vid_date":"2018-08-02"
 	},
 	{
 		"vid_id":"180716112756", 
@@ -16,17 +16,17 @@
 		"img_url":"../images/thumbnails/funny/30 June 2017.jpg",
 		"vid_time":"02:46:00",
  		"vid_size":"30032631",
-		"vid_date":"2018-07-30"
+		"vid_date":"2018-08-02"
 	},
 	{
-		"vid_id":"180515102953", 
-		"vid_name":"humanity", 
+		"vid_id":"180515115623", 
+		"vid_name":"Despacito Sung By Chicken Is The Only Version Of The Song That You'd Love", 
 		"vid_ext":"mp4",
  		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/humanity.jpg",
-		"vid_time":"02:00:00",
- 		"vid_size":"8641287",
-		"vid_date":"2018-07-30"
+		"img_url":"../images/thumbnails/funny/Despacito Sung By Chicken Is The Only Version Of The Song That You'd Love.jpg",
+		"vid_time":"01:02:00",
+ 		"vid_size":"2985275",
+		"vid_date":"2018-08-02"
 	},
 	{
 		"vid_id":"180515103536", 
@@ -36,17 +36,7 @@
 		"img_url":"../images/thumbnails/funny/Jingle Bells- Happy Sad Songs.jpg",
 		"vid_time":"01:38:00",
  		"vid_size":"6858684",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515115227", 
-		"vid_name":"Netflix Releases _Black Mirror_ Season 4 Episode Trailer For _Arkangel_ Starring Jodie Foster", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/Netflix Releases _Black Mirror_ Season 4 Episode Trailer For _Arkangel_ Starring Jodie Foster.jpg",
-		"vid_time":"00:55:00",
- 		"vid_size":"3623478",
-		"vid_date":"2018-07-30"
+		"vid_date":"2018-08-02"
 	},
 	{
 		"vid_id":"180716113752", 
@@ -56,66 +46,6 @@
 		"img_url":"../images/thumbnails/funny/PARAGONIA.jpg",
 		"vid_time":"05:07:00",
  		"vid_size":"90588141",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515114906", 
-		"vid_name":"STAR WARS in Public", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/STAR WARS in Public.jpg",
-		"vid_time":"02:46:00",
- 		"vid_size":"15014940",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515115010", 
-		"vid_name":"This Innovative CPR Dummy Comes With A Second Dummy That Audibly Mourns Its Dead Son", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/This Innovative CPR Dummy Comes With A Second Dummy That Audibly Mourns Its Dead Son.jpg",
-		"vid_time":"01:16:00",
- 		"vid_size":"3256721",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515102751", 
-		"vid_name":"videoplayback", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/videoplayback.jpg",
-		"vid_time":"01:20:00",
- 		"vid_size":"6408608",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515102908", 
-		"vid_name":"videoplayback (1)", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/videoplayback (1).jpg",
-		"vid_time":"01:30:00",
- 		"vid_size":"6966480",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515103038", 
-		"vid_name":"videoplayback (5)", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/videoplayback (5).jpg",
-		"vid_time":"01:16:00",
- 		"vid_size":"3684395",
-		"vid_date":"2018-07-30"
-	},
-	{
-		"vid_id":"180515103103", 
-		"vid_name":"videoplayback (6)", 
-		"vid_ext":"mp4",
- 		"vid_dir":"../videosite/watch/funny",
-		"img_url":"../images/thumbnails/funny/videoplayback (6).jpg",
-		"vid_time":"01:55:00",
- 		"vid_size":"6390206",
-		"vid_date":"2018-07-30"
+		"vid_date":"2018-08-02"
 	}
 ]

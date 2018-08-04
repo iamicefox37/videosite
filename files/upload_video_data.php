@@ -49,15 +49,14 @@
           $playlist = $_GET["playlist"];
         } else {
           headers("Location: ".$path."?playlist=latest");
-        }
-        echo $path."?playlist=".$playlist."<br>";
+        }        
         //videos and video directory
         $dir = "../videosite/watch/".$playlist."/";
         $videos= scandir($dir);
         //getID3
         include_once('../getID3-master/getid3/getid3.php');
         $getID3 = new getID3;
-        echo sizeof($videos);
+                
         $i = 0;
         // $_obj=array();;
         while ($i<sizeof($videos)) {
@@ -79,9 +78,7 @@
             $_date = date("Y-m-d");
             $_size = filesize($dir.$vid);
             $_dir = dirname($dir.$vid);
-            $img_url = "../images/thumbnails/".$playlist."/$_name.jpg";
-
-            echo $_name;
+            $img_url = "../images/thumbnails/".$playlist."/$_name.jpg";            
 
             // $_name = split("''", $_name);
             // $_name = join("''''", $_name);

@@ -38,11 +38,13 @@
 							$p_list = ucfirst($_REQUEST["playlist"]);
 							loadVideo($conn, $p_list);
 						} else {
-							loadVideo($conn, "Latest");
+							// loadVideo($conn, "Latest");
 							loadVideo($conn, "Funny");
-							loadVideo($conn, "Most-popular");
+							// loadVideo($conn, "popular");
 							loadVideo($conn, "Got Talents");
 							loadVideo($conn, "Compassion");
+							// loadVideo($conn, "Motivation");
+							// loadVideo($conn, "Drama");
 						}
 
 					?>

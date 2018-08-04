@@ -20,17 +20,21 @@
   </head>
   <body>
     <!-- echo $_SERVER["PHP_SELF"]  -->
-    <!-- <form action="<?php ?>" method="post" enctype="multipart/form-data">
+    <!-- <form action="" method="post" enctype="multipart/form-data">
       <input type="file" name="file"><input type="submit" name="submit" value="Upload">
     </form> -->
     <div class="main">
       <?php
         //Get the playlist name
-        if ($_SERVER["SERVER_NAME"] === "localhost" ) {
-      		$path = "http://".$_SERVER["HTTP_HOST"]."/projects/webclient-videosite";
-      	} else {
+        if ($_SERVER["SERVER_NAME"] === "localhost" ) {
+
+      		$path = "http://".$_SERVER["HTTP_HOST"]."/projects/webclient-videosite";
+
+      	} else {
+
       		$path = (isset($_SERVER['HTTPS']) ? "https:" : "http") . "://$_SERVER[HTTP_HOST]" . $_SERVER["PHP_SELF"];
-      	}
+      	}
+
         if (isset($_GET["playlist"])) {
           $playlist = $_GET["playlist"];
         } else {

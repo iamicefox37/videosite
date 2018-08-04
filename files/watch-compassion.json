@@ -6,7 +6,7 @@
 		"img_url":"../images/thumbnails/compassion/15 July 2017.jpg",
 		"vid_time":"04:50:00",
  		"vid_size":"45542724",
-		"vid_date":"2018-07-30"
+		"vid_date":"2018-08-02"
 	},
 	{
 		"vid_id":"180716113554", 
@@ -16,6 +16,16 @@
 		"img_url":"../images/thumbnails/compassion/25 September 2017.jpg",
 		"vid_time":"02:26:00",
  		"vid_size":"34857660",
-		"vid_date":"2018-07-30"
+		"vid_date":"2018-08-02"
+	},
+	{
+		"vid_id":"180515114628", 
+		"vid_name":"A Job-Seeker Asks People To Help Him With His Tie, And The Results Are Heartwarming", 
+		"vid_ext":"mp4",
+ 		"vid_dir":"../videosite/watch/compassion",
+		"img_url":"../images/thumbnails/compassion/A Job-Seeker Asks People To Help Him With His Tie, And The Results Are Heartwarming.jpg",
+		"vid_time":"02:04:00",
+ 		"vid_size":"7805896",
+		"vid_date":"2018-08-02"
 	}
 ]

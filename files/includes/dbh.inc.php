@@ -5,16 +5,21 @@
 // $dbPassword = "4JsV8@JY";
 // $dbName = "id5890464_videosite";
 
-// Database Username root (local computer)
 // $dbServername = "localhost";
-// $dbUsername = "root";
-// $dbPassword = "wildones88";
-// $dbName = "videosite";
+// $dbUsername = "id6672662_paragonia";
+// $dbPassword = "paragonia7GECanfrmsRx";
+// $dbName = "id6672662_paragonia_records";
 
+// Database Username root (local computer)
 $dbServername = "localhost";
-$dbUsername = "paragpiq_chris";
-$dbPassword = "wildones88paragpiq";
-$dbName = "paragpiq_videosite";
+$dbUsername = "root";
+$dbPassword = "wildones88";
+$dbName = "videorecords";
+
+// $dbServername = "localhost";
+// $dbUsername = "paragpiq_chris";
+// $dbPassword = "wildones887GECanfrmsRx";
+// $dbName = "paragpiq_videosite";
 
 $conn = new mysqli($dbServername, $dbUsername, $dbPassword, $dbName);
 if ($conn->connect_error) {
