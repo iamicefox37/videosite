@@ -45,7 +45,7 @@
           header("Location: ".$_SERVER['PHP_SELF']."?file=exampleName");
           break;
         }
-        $fpath = "watch-".$dir.".json";
+        $fpath = "watch-".strtolower($dir).".json";
         $file = fopen($fpath, "w");
         echo $fpath."<br>";
 

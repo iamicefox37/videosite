@@ -99,9 +99,9 @@ window.onresize = function () {
   } else {
     slideDivider = 4;
   }
-  // resetWidth_Header();
+  resetWidth_Header();
 
-  // setDimensions_Header();
+  setDimensions_Header();
 
   setSliderWidth();
 }

@@ -48,7 +48,7 @@
         if (isset($_GET["playlist"])) {
           $playlist = $_GET["playlist"];
         } else {
-          headers("Location: ".$path."?playlist=latest");
+          header("Location: ".$path."?playlist=latest");
         }        
         //videos and video directory
         $dir = "../videosite/watch/".$playlist."/";
@@ -78,7 +78,7 @@
             $_date = date("Y-m-d");
             $_size = filesize($dir.$vid);
             $_dir = dirname($dir.$vid);
-            $img_url = "../images/thumbnails/".$playlist."/$_name.jpg";            
+            $img_url = "../images/thumbnails/".strtolower($playlist)."/$_name.jpg";            
 
             // $_name = split("''", $_name);
             // $_name = join("''''", $_name);

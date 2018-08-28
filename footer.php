@@ -1,7 +1,7 @@
 
   <footer>
     <div class="footer">
-      <h4>&copy; Copyright Media Burma </h4>
+      <h4>&copy; Copyright Paragonia </h4>
     </div>
   </footer>
 </div>

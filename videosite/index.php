@@ -85,12 +85,12 @@
 		        $date = $row["vid_date"];
 						$ext = $row["vid_ext"];
 		        // Get video total views
-		        $vidId = $row["vid_id"];
-		        $countQuery = "SELECT vid_id FROM watch_records WHERE vid_id = '$vidId'";
-		        $countRes = $conn->query($countQuery);
-		        $totalViews = $countRes->num_rows;
+				$vidId = $row["vid_id"];
+				$countQuery = "SELECT vid_id FROM watch_records WHERE vid_id = '$vidId'";
+				$countRes = $conn->query($countQuery);
+				$totalViews = $countRes->num_rows;
 
-						// Videolink
+					// Videolink
 				    $vidLink = "#".$name.".".$ext;
 							echo '<div class="video-container">
 								<div class="videobox">
