@@ -1,10 +1,15 @@
 
-var container = document.getElementsByClassName("videoslides-container");
-var prevBtn = document.getElementsByClassName("prev");
-var nxtBtn = document.getElementsByClassName("next");
-var slideIndex = 1;
+var container = document.getElementsByClassName("videoslides-container");
 
-//-----Video-Slider-------//
+var prevBtn = document.getElementsByClassName("prev");
+
+var nxtBtn = document.getElementsByClassName("next");
+
+var slideIndex = 1;
+
+
+
+//-----Video-Slider-------//
   //All of the slidebox containers
 	var sliderOuter = document.querySelectorAll(".videoslides-container");
 	//The number of slidebox to show in each slide
@@ -94,7 +99,9 @@ window.onresize = function () {
   } else {
     slideDivider = 4;
   }
-  resetWidth_Header();
-  setDimensions_Header();
+  // resetWidth_Header();
+
+  // setDimensions_Header();
+
   setSliderWidth();
 }

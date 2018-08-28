@@ -1,10 +1,10 @@
 <?php
 	include_once "header.php";
 ?>
-<div class="header-slider-wrap" style="display: none">
-  <!-- <div class="header-slider"> -->
+<!-- <div class="header-slider-wrap" style="height: 0">
+  <div class="header-slider">
   </div>
-</div>
+</div> -->
 		<div class="main">
 				<div class="boxWrap">
 					<?php
